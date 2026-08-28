@@ -44,6 +44,4 @@ uint8_t * buffer_write_atmost(buffer_t *buf,uint32_t *out_sz);
 
 int buffer_write_commit(buffer_t *buf, uint32_t written);
 
-void buffer_debug_print(buffer_t *buf);
-
 #endif
